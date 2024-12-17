@@ -1,9 +1,10 @@
-name: CI/CD Pipeline for Cypress Tests
+name: Checking Tests
 
 on:
   push:
-  branches:
-    - main
+    branches:
+      - main
+      - develop
   pull_request:
     branches:
       - develop
